@@ -7,8 +7,8 @@ from nltk.stem import PorterStemmer
 
 import argparse
 
-# nltk.download('punkt')
-# nltk.download('averaged_perceptron_tagger')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 
 def read_jsonl(file_path):
     data = []
