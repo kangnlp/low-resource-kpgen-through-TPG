@@ -11,6 +11,7 @@ import torch
 from sentence_transformers import SentenceTransformer
 from sentence_transformers import util
 
+nltk.download('stopwords')
 
 def read_jsonl(file_path):
     data = []
