@@ -1,5 +1,4 @@
 import json
-import pandas as pd
 import random
 
 from datasets import Dataset
